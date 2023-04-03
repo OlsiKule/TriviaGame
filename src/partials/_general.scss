@@ -1,0 +1,75 @@
+/* ------------------------ GENERAL SEMANTIC STYLING ------------------------ */
+
+@use './setup';
+
+.wrapper {
+	width: min(80%, 1500px);
+	margin: 0 auto;
+}
+
+html {
+	font-family: Mikado;
+	font-size: 62.5%;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 2em 0 0 0;
+	line-height: 1;
+	padding-bottom: 1vh;
+}
+
+img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+}
+
+h3 {
+	font-family: Mikado, serif;
+	color: #fff;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	letter-spacing: .07rem;
+}
+
+img {
+	max-width: 250px;
+	max-height: 250px;
+}
+
+select,
+input,
+button {
+	background-color: #ff9000;
+	color: #fff;
+	text-shadow: 2px 2px 2px #00000020;
+	font-size: 1.4em;
+	font-family: Mikado, serif;
+	border: 3px solid #ffffff50;
+	text-transform: uppercase;
+	border-radius: 1em;
+	padding: 10px 15px;
+	box-shadow: 2px 5px #00000030;
+	margin-top: 2vh;
+
+	&:hover {
+		background-color: #0542B9;
+	}
+}
+
+a {
+	list-style: none;
+	text-decoration: none;
+	color: #F2F2F2;
+}

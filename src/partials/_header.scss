@@ -1,0 +1,82 @@
+/* --------------------------- KEYFRAME ANIMATION --------------------------- */
+
+@keyframes slide {
+
+    0% {
+        transform: translate(-500px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+/* ----------------------- NAVIGATION BAR ----------------------- */
+
+
+.NavBar {
+    position: absolute;
+    width: 100%;
+    background: #18172c30;
+    animation: TopSlide 2s ease-out;
+    text-transform: uppercase;
+    z-index: 5;
+
+    .logo {
+        padding-left: 30px;
+        float: left;
+        display: flex;
+
+        .logoLink {
+
+            padding-left: 10px;
+
+            &:hover {
+                transition: 0.5s;
+                color: #ff9000;
+                text-shadow: 0 0 5px #ff9000, 0 0 25px #ff9000, 0 0 50px #ff9000, 0 0 200px #ff9000;
+            }
+        }
+
+        .logoAvatar {
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+        }
+    }
+
+    /* -------------------------- NAVIGATION BAR LINKS -------------------------- */
+
+    ul {
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            color: #ffff;
+            font-size: 1.5rem;
+            padding-right: 30px;
+            padding-top: 5px;
+            transition: color 0.25s ease;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: #ffff;
+
+                &:hover {
+                    transition: 0.2s;
+                    text-shadow: 0 0 5px #66BF39, 0 0 25px #66BF39, 0 0 50px #66BF39, 0 0 200px #66BF39;
+                }
+
+                &:visited {
+                    color: white;
+                }
+            }
+        }
+    }
+}

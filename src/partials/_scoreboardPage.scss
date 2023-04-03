@@ -1,0 +1,90 @@
+/* -------------------------- ANIMATION DECLARATION ------------------------- */
+
+@keyframes leftSlide {
+
+    0% {
+        transform: translate(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+        transform: rotate(-40deg);
+    }
+}
+
+@keyframes bottomSlide {
+
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes TopSlide {
+
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rightSlide {
+
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        transform: rotate(40deg);
+
+    }
+}
+
+/* ----------------------- SCOREBOARD/RESULTS SECTION ----------------------- */
+
+.userAvatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1.8px solid black;
+}
+
+.resultSection {
+
+    .img1 {
+        animation: bottomSlide 3s ease-out;
+        position: absolute;
+        bottom: -30px;
+    }
+
+    .img2 {
+        animation: rightSlide 2s ease-out;
+        position: absolute;
+        bottom: -42px;
+        right: -41px;
+        transform: rotate(40deg);
+    }
+
+    .img3 {
+        animation: leftSlide 2s ease-out;
+        position: absolute;
+        left: -41px;
+        bottom: -42px;
+        transform: rotate(-40deg);
+    }
+}

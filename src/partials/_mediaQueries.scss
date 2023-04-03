@@ -1,0 +1,208 @@
+/* ---------------------------- RESPONSIVE DESIGN --------------------------- */
+
+@media screen and (max-width: 1050px) {
+    /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
+
+    .aboutModal {
+        background: conic-gradient(#FFDD33 0 7%, #FFA602 0 21%, #E21B3C 0 36%, #ed51aa 0 50%, #864CBF 0 64%, #0572B9 0 78%, #66BF39 0 93%, #FFDD33 0 100%);
+        min-height: 200vh;
+        position: absolute;
+        height: 270vh;
+        width: 270vw;
+        top: -105%;
+        left: -85%;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: spin 3s;
+    }
+
+    .aboutDescription {
+        transition: 2s ease-in;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 25vh;
+        text-align: center;
+
+        .begin {
+            text-align: center;
+        }
+    }
+
+    .charGen .welcomeAvatar .speechBubble {
+        width: 40%;
+        color: #0572B9;
+        position: absolute;
+        background: #00aabb;
+        border-radius: 0.4em;
+        top: 240px;
+        left: 185px;
+        padding: 10px;
+        background: rgba(24, 23, 44, 0.1882352941);
+        animation: TopSlide 1s ease-in;
+        text-transform: uppercase;
+        z-index: 5;
+    }
+
+    .charGen .welcomeAvatar .logoAvatar-Hello {
+        position: absolute;
+        top: 245px;
+        right: 185px;
+    }
+
+    .userCreate {
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 820px),
+screen and (max-height: 750px) {
+    /* all of our styles for TABLET devices will go within this breakpoint */
+
+    input {
+        position: relative;
+        top: 23vh
+    }
+
+    .charGen .welcomeAvatar .speechBubble {
+        width: 40%;
+        color: #0572B9;
+        position: absolute;
+        background: #00aabb;
+        border-radius: 0.4em;
+        top: 241px;
+        left: 127px;
+        padding: 10px;
+        background: rgba(24, 23, 44, 0.1882352941);
+        animation: TopSlide 1s ease-in;
+        text-transform: uppercase;
+        z-index: 5;
+    }
+
+    .charGen .welcomeAvatar .logoAvatar-Hello {
+        position: absolute;
+        top: 270px;
+        right: 116px;
+    }
+
+    .userCreate {
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .resultSection .img1 {
+        max-width: 150px;
+    }
+
+    .img2 {
+        max-width: 150px;
+    }
+
+    .img3 {
+        max-width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 570px),
+screen and (max-height: 850px) {
+    /* all of our styles for MOBILE devices will go within this breakpoint */
+
+    .aboutDescription {
+        h1 {
+            font-size: 1.7;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+
+        }
+
+    }
+
+    .NavBar {
+        .logo {
+            text-align: center;
+        }
+
+        li {
+            display: none;
+        }
+    }
+
+    select {
+        font-size: 2.5rem;
+    }
+
+    .charGen .welcomeAvatar .speechBubble {
+        width: 70%;
+        color: #0572B9;
+        position: absolute;
+        background: #00aabb;
+        border-radius: 0.4em;
+        top: 159px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        padding: 10px;
+        background: rgba(24, 23, 44, 0.1882352941);
+        animation: TopSlide 1s ease-in;
+        text-transform: uppercase;
+        z-index: 5;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .charGen {
+        font-size: 2rem;
+
+        .welcomeAvatar .logoAvatar-Hello {
+            position: absolute;
+            top: 240px;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+    }
+
+    .userCreate {
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 400px),
+screen and (max-height: 580px) {
+    /* all of our styles for MOBILE devices will go within this breakpoint */
+
+    .aboutDescription {
+        h1 {
+            font-size: 6rem;
+        }
+
+        h3 {
+            display: none;
+        }
+    }
+
+    img.logoAvatar-Hello {
+        width: 190px
+    }
+
+    input {
+        text-align: center;
+        top: 30vh;
+        font-size: 2rem;
+    }
+}

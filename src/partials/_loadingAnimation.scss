@@ -1,0 +1,28 @@
+/* ------------------------ LOADING ANIMATION FEATURE ----------------------- */
+
+$circleSize: 3em;
+$circleBorderSize: $circleSize * 0.07;
+
+@keyframes spin
+{
+  0% { transform: rotate(0);}  
+  100% { transform: rotate(360deg); }
+}  
+
+.circle
+{  
+  position: absolute;
+  height: $circleSize;
+  width: $circleSize;     
+  top: 50%;
+  left: 50%;  
+  box-sizing: border-box;
+  margin-left: -($circleSize / 2);  
+  margin-top: -($circleSize / 2);    
+  border: $circleBorderSize solid;
+  border-color: #E67676 #F2F062 #A9E6E6 #7692E4;  
+  border-radius: 50%;  
+  box-shadow: 0 0 ($circleSize * 0.80) blue;    
+  opacity: 0.9;
+  animation: spin 1s infinite linear;
+}

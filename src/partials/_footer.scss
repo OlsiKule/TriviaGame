@@ -1,0 +1,19 @@
+/* ---------------------------- FOOTER STYLES ---------------------------- */
+
+.footerBar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #18172c30;
+    animation: bottomSlide 2s ease-out;
+    text-transform: uppercase;
+    z-index: 5;
+    p {
+        color: #ffff;
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

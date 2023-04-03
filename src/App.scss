@@ -1,0 +1,19 @@
+@use "./partials/setup";
+@use "./partials/general";
+@use "./partials/header";
+@use "./partials/footer";
+@use "./partials/aboutPage";
+@use "./partials/generatorPage";
+@use "./partials/scoreboardPage";
+@use "./partials/contactPage";
+@use "./partials/mediaQueries";
+// @use "./partials/loadingAnimation";
+
+@font-face {
+    font-family: Mikado;
+    src: url(./fonts/MikadoBold.ttf)
+}
+
+#root {
+    font-family: Mikado;
+}
