@@ -90,9 +90,9 @@ See the [open issues](https://github.com/PPableo/quiz-app-junoCollegeProject4/is
 <!-- CONTACT -->
 ## Contact
 
-https://paulpableo.com/
+https:www.olsikule.ca
 
-Project Link: [https://github.com/PPableo/quiz-app-junoCollegeProject4](https://github.com/PPableo/quiz-app-junoCollegeProject4)
+Project Link: [https://github.com/OlsiKule/TriviaGame](https://github.com/OlsiKule/TriviaGame)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
