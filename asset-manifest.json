@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/TriviaGame/static/css/main.7abfe6da.css",
+    "main.js": "/TriviaGame/static/js/main.854a7727.js",
+    "static/media/meeseeks-removebg-preview.png": "/TriviaGame/static/media/meeseeks-removebg-preview.8eb042d74341a0c7b846.png",
+    "static/media/MikadoBold.ttf": "/TriviaGame/static/media/MikadoBold.4a633a685517edd89234.ttf",
+    "static/media/meeseeksBust.png": "/TriviaGame/static/media/meeseeksBust.4225299da23542273e42.png",
+    "static/media/meeseeksBeat.png": "/TriviaGame/static/media/meeseeksBeat.9e5f0b4f051cbd08102b.png",
+    "static/media/meeseeksSad.png": "/TriviaGame/static/media/meeseeksSad.bed7a7644f8881e6f56a.png",
+    "index.html": "/TriviaGame/index.html",
+    "main.7abfe6da.css.map": "/TriviaGame/static/css/main.7abfe6da.css.map",
+    "main.854a7727.js.map": "/TriviaGame/static/js/main.854a7727.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7abfe6da.css",
+    "static/js/main.854a7727.js"
+  ]
+}
