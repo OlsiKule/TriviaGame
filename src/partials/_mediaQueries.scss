@@ -115,9 +115,14 @@ screen and (max-height: 750px) {
 screen and (max-height: 850px) {
     /* all of our styles for MOBILE devices will go within this breakpoint */
 
+    img {
+        max-width: 200px;
+        max-height: 200px;
+      }
+
     .aboutDescription {
         h1 {
-            font-size: 1.7;
+            font-size: 7rem;
         }
 
         h3 {
